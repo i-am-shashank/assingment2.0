@@ -1,0 +1,169 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  margin: 0 16vw;
+}
+.NavBar {
+  justify-content: space-between;
+  display: flex;
+}
+.Logo {
+  height: 8rem;
+}
+.iconContainer {
+  align-self: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  user-select: none;
+}
+.text {
+  font-size: 1.5rem;
+  line-height: 1px;
+}
+.Section1 {
+  padding: 1rem 0;
+  border-radius: 24px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  box-shadow: 2px 2px 24px rgb(170, 170, 170);
+}
+.select {
+  border: 1px solid red;
+  box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.25);
+  outline: none;
+}
+label {
+  width: max-content;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.3rem;
+  line-height: 3rem;
+}
+.dateSection {
+  align-self: center;
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.dateButton {
+  border: 1px solid red;
+  cursor: pointer;
+  padding: 0.2rem;
+  font-size: 1.1rem;
+  border-radius: 4px;
+  outline: none;
+  box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.25);
+}
+.filter {
+  background-color: rgb(34 162 174);
+  color: white;
+  border: none;
+  font-weight: bold;
+  font-size: 1.5rem;
+  width: max-content;
+  height: max-content;
+  padding: 0.2rem 0.8rem;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0px 5px 10px 0px rgba(50, 50, 50, 0.35);
+}
+/* .bell{
+    box-shadow: 0px 0px 12px black;
+    background-color: transparent;
+  } */
+.cal {
+  position: absolute;
+  height: 16rem;
+  border-radius: 4px;
+  box-shadow: 0px 0px 16px grey;
+  cursor: pointer;
+  top: 14rem;
+}
+.Section2 {
+  margin-top: 2rem;
+  border-radius: 24px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  box-shadow: 2px 2px 24px rgb(170, 170, 170);
+  line-height: 0px;
+}
+.reportText {
+  font-size: 2rem;
+  margin-left: 4rem;
+}
+.rBoxCont {
+  display: flex;
+  width: 90%;
+  align-self: center;
+  justify-content: space-between;
+  color: white;
+  font-size: 1.8rem;
+}
+.rBox {
+  padding: 2rem 0.5rem;
+  box-shadow: 0px 5px 10px 0px rgba(0, 0, 0, 0.35);
+}
+.rBox1 {
+  background-color: rgb(254, 193, 13);
+}
+.rBox2 {
+  background-color: rgb(23, 162, 183);
+}
+.rBox3 {
+  background-color: rgb(198, 56, 54);
+}
+.Section3 {
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  display: flex;
+  justify-content: space-between;
+}
+.squareBox {
+  background-color: #fff3fe;
+  height: 50vh;
+  width: 50vh;
+  box-shadow: 2px 2px 24px rgb(170, 170, 170);
+  border-radius: 16px;
+}
+.MuiPickersToolbar-toolbar,
+.MuiPickersDay-daySelected {
+  background-color: #d72240 !important;
+}
+.MuiButton-textPrimary {
+  display: none;
+}
+
+
+.MuiInput-underline::before,
+.MuiInput-underline::after{
+  display: none;
+}
+.MuiInputBase-input{
+  width: 100px !important;
+  cursor: pointer;
+  border: 1px solid  #d72240 !important;
+  border-radius: 2px;
+  box-shadow: 0px 4px 16px rgb(194, 194, 194);
+}
+.tat{
+  font-weight: bold;
+  font-size: 2rem;
+  margin-left: 2rem;
+}
+.pie{
+  height: 100%;
+}
+
+@media(max-width: 1405px){
+
+  .App {
+    margin: 0 8vw;
+  }
+}
